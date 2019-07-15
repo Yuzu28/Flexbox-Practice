@@ -1,0 +1,405 @@
+*{-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+}
+
+ .container{
+     /* max-width: 1000px; */
+    /* margin: 0 auto; */
+    /* padding: 10px;  */
+    height: 20px;
+    background: gray;
+} 
+
+.flex-nav ul{
+    
+    border: 1px solid gray;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    background: white;
+    height: 50px;
+    text-align: center;
+    /* padding-top: 10px; */
+    line-height: 45px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+
+} 
+
+
+
+.flex-nav li{
+    flex:1;
+    /* margin-left: 30px; */
+    /* border: 1px solid black; */
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    }
+.hit{
+    color: white;
+}
+.flex-nav .white{
+    flex:4;
+    /* margin-left: 50px; */
+    padding-left: 20px;
+    
+}
+
+.flex-nav .as{
+    padding-left: 20px;
+    padding-right: 25px;
+    background-color: black;
+    /* text-align: center; */
+}
+
+.flex-nav .social{
+    /* flex:1; */
+    float: left;
+    margin-right: 20px;
+}
+
+@media all and (max-width:1000px){
+
+}
+@media all and (max-width:500px){
+    
+}
+
+
+
+/* ***********************
+     Monster Image
+********************** */
+.mmmm{
+    margin-top: 130px;
+    /* background-color: brown; */
+    border: 1px solid black;
+    height: 210px;
+    width: 1000px;
+    margin-left: 150px;
+     /* max-width: 1000px; */
+    /* margin: 0 auto; */
+    /* padding: 10px;  */
+    background-image: url("https://i.cdn.turner.com/adultswim/big/img/2019/01/14/ComicHeader2.png" );
+    background-size: 1000px 200px;
+}
+
+
+/* 
+****************
+Grid section
+***************** */
+.foo{
+    margin-top: 80px;
+    /* background-color:orchid; */
+    height: 1000px;
+
+    
+
+}
+
+.container2{
+    
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 900px;
+    border: 2px solid black;
+    flex: 1;
+
+    justify-content: center;
+    
+}
+
+.box{
+    /* basically for flex basis take the the (width - 100) and divide by the amount of row you want to get the specfic number;
+    for example width = (500 -100)/2 = 200px; */
+    flex-basis: 350px;
+    flex-grow: 1;
+
+    margin: 15px;
+    
+   
+}
+.box1{
+    background-color: red;
+    /* margin: 0; */
+}
+.box2{
+    background-color: blueviolet;
+    /* width: 33.333%; */
+}
+.box3{
+    background-color: blue;
+    /* width: 33.333%; */
+}
+.box4{
+    background-color: orchid;
+    /* width: 33.333%; */
+}
+.box5{
+    background-color: orange;
+    /* width: 25%; */
+}
+.box6{
+    background-color: greenyellow;
+    /* width: 25%; */
+}
+.box7{
+    background-color:aquamarine;
+    /* width: 25%; */
+    
+}
+.box8{
+    background-color: maroon;
+    /* width: 25%;  */
+}
+
+.foo div{
+    color: green;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boo{
+    margin-top: 10px;
+    background-color: #ffff66;
+    height: 3000px;
+}
+
+.container3{
+    
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 3000px;
+    border: 2px solid black;
+    flex: 1;
+
+    justify-content: center;
+    
+}
+
+.bod{
+    /* basically for flex basis take the the (width - 100) and divide by the amount of row you want to get the specfic number;
+    for example width = (500 -100)/2 = 200px; */
+    flex-basis: 233.3333px;
+    /* flex-grow: 1; */
+
+    margin: 10px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bod1{
+    background-color: red;
+    
+
+    
+
+}
+.bod2{
+    background-color: blueviolet;
+    /* width: 33.333%; */
+}
+.bod3{
+    background-color: blue;
+    /* width: 33.333%; */
+}
+.bod4{
+    background-color: orchid;
+    /* width: 33.333%; */
+}
+.bod5{
+    background-color: orange;
+    /* width: 25%; */
+}
+.bod6{
+    background-color: greenyellow;
+    /* width: 25%; */
+}
+.bod7{
+    background-color:aquamarine;
+    /* width: 25%; */
+    
+}
+.bod8{
+    background-color: maroon;
+    /* width: 25%;  */
+}
+
+
+.bod9{
+    background-color: red;
+}
+.bod10{
+    background-color: blueviolet;
+    /* width: 33.333%; */
+}
+.bod11{
+    background-color: blue;
+    /* width: 33.333%; */
+}
+.bod12{
+    background-color: orchid;
+    /* width: 33.333%; */
+}
+.bod13{
+    background-color: orange;
+    /* width: 25%; */
+}
+.bod14{
+    background-color: greenyellow;
+    /* width: 25%; */
+}
+.bod15{
+    background-color:aquamarine;
+    /* width: 25%; */
+    
+}
+.bod16{
+    background-color: maroon;
+    /* width: 25%;  */
+}
+
+
+
+
+.bod17{
+    background-color: red;
+}
+.bod18{
+    background-color: blueviolet;
+    /* width: 33.333%; */
+}
+.bod19{
+    background-color: blue;
+    /* width: 33.333%; */
+}
+.bod20{
+    background-color: orchid;
+    /* width: 33.333%; */
+}
+
+.bod21{
+    background-color: orchid;
+    /* width: 33.333%; */
+}
+
+
+.bod22{
+    background-color: slateblue;
+    /* width: 33.333%; */
+}
+.bod23{
+    background-color: orange;
+    /* width: 25%; */
+}
+.bod24{
+    background-color: greenyellow;
+    /* width: 25%; */
+}
+.bod25{
+    background-color:aquamarine;
+    /* width: 25%; */
+    
+}
+.bod26{
+    background-color: maroon;
+    /* width: 25%;  */
+}
+
+
+
+.bod27{
+    background-color: red;
+}
+.bod28{
+    background-color: blueviolet;
+    /* width: 33.333%; */
+}
+.bod29{
+    background-color: blue;
+    /* width: 33.333%; */
+}
+.bod30{
+    background-color: orchid;
+    /* width: 33.333%; */
+}
+.bod31{
+    background-color: orange;
+    /* width: 25%; */
+}
+.bod32{
+    background-color: greenyellow;
+    /* width: 25%; */
+}
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Russo One', sans-serif;
+    font-size: 15px;
+    height: 50px;
+
+}

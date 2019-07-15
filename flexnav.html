@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{-moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            
+        }
+        body{
+            margin: 0;
+        }
+       
+         .container{
+             max-width: 1000px;
+            margin: 0 auto;
+            /* padding: 10px;  */
+            background: gray;
+        } 
+
+        .flex-nav ul{
+            
+            border: 1px solid orange;
+            list-style: none;
+            margin:0;
+            padding: 0;
+            display: flex;
+            box-sizing: border-box;
+            background: burlywood;
+        } 
+        
+
+        .flex-nav li{
+            flex:3;
+            margin-left: 30px;
+        }
+
+        .flex-nav .social{
+            flex:1;
+
+        }
+
+        .mmmm{
+            background-color: blue;
+            height: 100px;
+            
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        @media all and (max-width:1000px){
+
+        }
+        @media all and (max-width:500px){
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <nav class = "flex-nav">
+
+            <ul>
+                <li><a href="">Item01</a></li>
+                <li><a href="">Item02</a></li>
+                <li><a href="">Item03</a></li>
+                <li><a href="">Item04</a></li>
+                <li><a href="">Item05</a></li>
+                <li><a href="">Item06</a></li>
+                <li class = "social"><a href="">x</a></li>
+                <li class = "social"><a href="">x</a></li>
+                <li class = "social"><a href="">x</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <section>
+        <div class = "mmmm">
+            <h3>picture</h3>
+        </div>
+    </section>
+    
+</body>
+</html>
